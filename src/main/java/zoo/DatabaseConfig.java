@@ -12,6 +12,7 @@ import java.net.URISyntaxException;
 @Configuration
 @Profile("heroku")
 public class DatabaseConfig {
+    //postgres://lurststtfvdaez:7067750bbf31a8b39d40e0dd02af55e9c0a71bdabad1914879e94094da2e5dba@ec2-34-239-33-57.compute-1.amazonaws.com:5432/d61m6mqj8udtij
 
     @Bean
     public DataSource dataSource() throws URISyntaxException {
